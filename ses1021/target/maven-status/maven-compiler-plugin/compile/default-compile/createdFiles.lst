@@ -1,0 +1,16 @@
+br/com/ses/maquina/repository/dao/MaquinaDaoImpl.class
+br/com/ses/exception/ExceptionMessages.class
+br/com/ses/exception/maquina/NomeInvalidoException.class
+br/com/ses/maquina/controller/dto/MaquinaRequestDTO.class
+br/com/ses/db/DatabaseConfig.class
+br/com/ses/maquina/Maquina.class
+br/com/ses/maquina/controller/MaquinaController.class
+br/com/ses/maquina/controller/dto/MaquinaResponseDTO.class
+br/com/ses/maquina/repository/MaquinaRepository.class
+Main.class
+br/com/ses/exception/maquina/CodigoInvalidoException.class
+br/com/ses/maquina/controller/MaquinaMapper.class
+br/com/ses/maquina/repository/dao/MaquinaDao.class
+br/com/ses/maquina/service/MaquinaService.class
+br/com/ses/maquina/repository/MaquinaRepositoryImpl.class
+br/com/ses/exception/maquina/InativoInvalidoException.class

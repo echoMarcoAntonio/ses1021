@@ -1,0 +1,16 @@
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/Main.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/db/DatabaseConfig.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/exception/ExceptionMessages.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/exception/maquina/CodigoInvalidoException.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/exception/maquina/InativoInvalidoException.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/exception/maquina/NomeInvalidoException.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/Maquina.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/controller/MaquinaController.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/controller/MaquinaMapper.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/controller/dto/MaquinaRequestDTO.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/controller/dto/MaquinaResponseDTO.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/repository/MaquinaRepository.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/repository/MaquinaRepositoryImpl.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/repository/dao/MaquinaDao.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/repository/dao/MaquinaDaoImpl.java
+/home/stanickim/Downloads/Projetos/ses1021/src/main/java/br/com/ses/maquina/service/MaquinaService.java
