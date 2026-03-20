@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ses.iml" filepath="$PROJECT_DIR$/.idea/ses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ses1021/ses-maquinas.iml" filepath="$PROJECT_DIR$/ses1021/ses-maquinas.iml" />
-    </modules>
-  </component>
-</project>
