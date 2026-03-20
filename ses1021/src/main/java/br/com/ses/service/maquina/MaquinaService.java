@@ -1,5 +1,6 @@
 package br.com.ses.service.maquina;
 
+import br.com.ses.common.exception.maquina.ListagemInvalidaException;
 import br.com.ses.common.exception.maquina.MaquinaNaoEncontradaException;
 import br.com.ses.domain.maquina.Maquina;
 import br.com.ses.repository.maquina.MaquinaRepository;
@@ -7,6 +8,7 @@ import br.com.ses.repository.maquina.MaquinaRepository;
 import java.util.List;
 import java.util.Optional;
 
+import static br.com.ses.common.exception.ExceptionMessages.LISTAR_INVALIDA;
 import static br.com.ses.common.exception.ExceptionMessages.MAQ_INEXISTENTE;
 
 public class MaquinaService {
@@ -27,6 +29,8 @@ public class MaquinaService {
     }
 
     public List<Maquina> listarTodos(int cdDe, int cdAte) {
+        if (cdDe >= cdAte)
+            throw new ListagemInvalidaException(LISTAR_INVALIDA);
         return maquinaRepository.listarTodos(cdDe, cdAte);
     }
 
@@ -38,6 +42,8 @@ public class MaquinaService {
     }
 
     public void remover(int codigo) {
+        maquinaRepository.buscar(codigo)
+                .orElseThrow(() -> new MaquinaNaoEncontradaException(MAQ_INEXISTENTE));
         maquinaRepository.remover(codigo);
     }
 }

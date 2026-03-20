@@ -34,7 +34,7 @@ public class MaquinaConstants {
     // inválidas — código
     public static final String NOME_VALIDO = "John Deere 9RX 830";
     public static final int CODIGO_ZERO = 0;
-    public static final int CODIGO_ACIMA_MAXIMO = 1520;
+    public static final int CODIGO_ACIMA_MAXIMO = 1523547990;
 
     /*
      * DTOs
@@ -46,10 +46,10 @@ public class MaquinaConstants {
 
     // código inválido para testar validações
     public static final MaquinaRequestDTO MAQUINA_CODIGO_ZERO =
-            new MaquinaRequestDTO("New Holland T5.110", false);
+            new MaquinaRequestDTO(CODIGO_ZERO, "New Holland T5.110", false);
 
     public static final MaquinaRequestDTO MAQUINA_CODIGO_ACIMA_LIMITE =
-            new MaquinaRequestDTO("Valtra S416 The Boss", false);
+            new MaquinaRequestDTO(CODIGO_ACIMA_MAXIMO, "Valtra S416 The Boss", false);
 
     // com nome inválido
     public static final MaquinaRequestDTO MAQUINA_NOME_VAZIO =

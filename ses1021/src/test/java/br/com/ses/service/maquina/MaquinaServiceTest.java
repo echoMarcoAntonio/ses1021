@@ -68,6 +68,8 @@ class MaquinaServiceTest {
     void deveAtualizarMaquinaRecebidaPorRepository_RetornaMesmaInstancia() {
         Maquina maquina = maquinaValida();
 
+        when(repository.buscar(983)).thenReturn(Optional.of(maquina));
+
         Maquina resultado = service.atualizar(maquina);
 
         verify(repository, times(1)).atualizar(maquina);
@@ -99,6 +101,10 @@ class MaquinaServiceTest {
     // remover
     @Test
     void deveRemoverMaquina_Retorna() {
+        Maquina maquina = maquinaValida();
+
+        when(repository.buscar(983)).thenReturn(Optional.of(maquina));
+
         service.remover(983);
 
         verify(repository, times(1)).remover(983);

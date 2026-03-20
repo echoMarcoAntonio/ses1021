@@ -16,6 +16,7 @@ public final class ExceptionMessages {
 
     public static final String STTS_MAQ_OBRGT = "Uma máquina não pode ser criada inativa.";
     public static final String MAQ_INEXISTENTE = "Não foi possível buscar pela máquina. ID não encontrado";
+    public static final String LISTAR_INVALIDA = "O código inicial não pode ser maior que o final.";
 
     private ExceptionMessages() {
         throw new UnsupportedOperationException("Classe utilitária.");
